@@ -1,15 +1,19 @@
-Choose a metric:
-<select (change)="selectChangeHandler($event)">
-  <option value="a">A</option>
-  <option value="b">B</option>
-  <option value="c">C</option>
-  <option value="d">D</option>
-  <option value="e">E</option>
-  <option value="f">F</option>
-  <option value="g">G</option>
-  <option value="h">H</option>
-  <option value="i">I</option>
-  <option value="j">J</option>
-</select>
+<p>
+  Choose a metric:
+  <select (change)="selectChangeHandler($event)">
+    <option value="a">A</option>
+    <option value="b">B</option>
+    <option value="c">C</option>
+    <option value="d">D</option>
+    <option value="e">E</option>
+    <option value="f">F</option>
+    <option value="g">G</option>
+    <option value="h">H</option>
+    <option value="i">I</option>
+    <option value="j">J</option>
+  </select>
+</p>
 
-You selected: {{selectedValue}}
+<p>You selected: {{selectedValue}}</p>
+
+<p>Service Sourced Data: {{serviceSourcedData}}</p>
