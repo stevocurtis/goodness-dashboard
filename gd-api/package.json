@@ -4,7 +4,8 @@
   "description": "Goodness Dashboard API",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "mocha --reporter src/**/*.spec.js --recursive --watch"
+    "test": "mocha src/**/*.spec.js --reporter spec",
+    "test.watch": "mocha src/**/*.spec.js --reporter spec --watch"
   },
   "author": "",
   "license": "ISC",
