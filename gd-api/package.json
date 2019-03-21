@@ -1,0 +1,21 @@
+{
+  "name": "gd-api",
+  "version": "1.0.0",
+  "description": "Goodness Dashboard API",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha --reporter src/**/*.spec.js --recursive --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.12.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.9"
+  }
+}
