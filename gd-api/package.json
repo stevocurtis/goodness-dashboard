@@ -5,7 +5,7 @@
   "scripts": {
     "start": "nodemon server.js",
     "test": "mocha src/**/*.spec.js --reporter spec",
-    "test.watch": "mocha src/**/*.spec.js --reporter spec --watch"
+    "test.watch": "mocha src/**/*.spec.js --reporter min --watch"
   },
   "author": "",
   "license": "ISC",
