@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <!-- <HelloWorld name="Welcome to Your Vue.js App" /> -->
+    <HelloWorld name="from App" />
     <Navbar />
     <router-view></router-view>
   </div>
@@ -27,5 +28,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+a {
+  color: #42b983;
 }
 </style>

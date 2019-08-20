@@ -1,20 +1,20 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>Hello {{ name }}</h1>
   </div>
 </template>
 
 <script>
 export default {
   name: "HelloWorld",
-  // props: {
-  //   msg: String
-  // },
-  data() {
-    return {
-      msg: "Hello World"
-    };
+  props: {
+    name: String
   }
+  // data() {
+  //   return {
+  //     msg: "Hello World"
+  //   };
+  // }
 };
 </script>
 
@@ -30,8 +30,5 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
-}
-a {
-  color: #42b983;
 }
 </style>

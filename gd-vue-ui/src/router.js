@@ -13,7 +13,12 @@ export default new Router({
   routes: [
     { path: "/about", name: "about", component: About },
     { path: "/contact", name: "contact", component: Contact },
-    { path: "/hello", name: "hello", component: HelloWorld },
+    {
+      path: "/hello",
+      name: "hello",
+      component: HelloWorld,
+      props: { name: "Steve" }
+    },
     { path: "*", name: "home", component: Home }
   ]
 });

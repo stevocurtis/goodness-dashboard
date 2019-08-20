@@ -2,9 +2,9 @@
   <div>
     <h1>Navbar</h1>
     <router-link to="home">Home</router-link>&nbsp;|
-    <router-link to="contact">Contact</router-link>&nbsp;|
     <router-link to="hello">Hello</router-link>&nbsp;|
-    <router-link to="about">About</router-link>
+    <router-link to="about">About</router-link>&nbsp;|
+    <router-link to="contact">Contact</router-link>
   </div>
 </template>
 
