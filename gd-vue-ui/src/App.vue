@@ -1,20 +1,16 @@
 <template>
   <div id="app">
-    <!-- <HelloWorld name="Welcome to Your Vue.js App" /> -->
-    <HelloWorld name="from App" />
     <Navbar />
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 import Navbar from "./components/Navbar.vue";
 
 export default {
   name: "app",
   components: {
-    HelloWorld,
     Navbar
   }
 };
