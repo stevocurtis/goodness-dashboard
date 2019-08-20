@@ -6,11 +6,16 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  name: "HelloWorld",
+  // props: {
+  //   msg: String
+  // },
+  data() {
+    return {
+      msg: "Hello World"
+    };
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
